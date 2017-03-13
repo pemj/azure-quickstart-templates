@@ -235,7 +235,7 @@
 		    "apiVersion": "2015-06-15",
 		    "type": "Microsoft.Compute/virtualMachines/extensions",
 		    "name": "[concat(variables('vmName'),'/joindomain')]",
-		    "location": "[resourceGroup().location]",,
+		    "location": "[resourceGroup().location]",
 		    "dependsOn": [
 			"[concat('Microsoft.Compute/virtualMachines/', variables('vmName'))]",
 			"[concat('Microsoft.Compute/virtualMachines/extensions/', variables('vmName'), '/WinRMCustomScriptExtension)]"
