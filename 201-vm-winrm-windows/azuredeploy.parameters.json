@@ -25,6 +25,15 @@
         },
         "subnetName": {
             "value": "Subnet"
+        },
+        "domainJoinUserName": {
+            "value": "contoso\\username"
+        },
+        "domainJoinUserPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "domainFQDN": {
+            "value": "contoso.com"
         }
    }
 }
